@@ -20,7 +20,7 @@ export default function Login() {
           </div>
 
           <div className="mx-auto">
-            <img className='z-20  mx-auto max-w-full h-auto ' src={Logo} />
+            <img className='z-20  mx-auto max-w-full h-auto mh-10 ' src={Logo} />
           </div>
 
         </div>
