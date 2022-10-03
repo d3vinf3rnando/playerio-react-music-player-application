@@ -19,8 +19,8 @@ export default function Login() {
             <div className=" mr-14 bg-purple-200 w-64 h-64 rounded-full blur-3xl z-0 "></div>
           </div>
 
-          <div className="flex justify-center z-10">
-            <img className='z-10 left-2 z-10' src={Logo} />
+          <div className="mx-auto">
+            <img className='z-20  mx-auto max-w-full h-auto ' src={Logo} />
           </div>
 
         </div>
