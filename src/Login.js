@@ -23,6 +23,10 @@ export default function Login() {
             <img className='z-20  mx-auto max-w-full h-auto mh-10 ' src={Logo} />
           </div>
 
+          <div className="mx-auto">
+            <img className='z-20  mx-auto max-w-full h-auto mh-10 ' src={Logo} />
+          </div>
+
         </div>
 
         <div className='flex justify-end'>
