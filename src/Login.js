@@ -32,6 +32,7 @@ export default function Login() {
         <div className='flex justify-end'>
           <div className="bg-purple-200 w-64 h-64 rounded-full blur-3xl "></div>
         </div>
+        {/* updated comments */}
 
         
     </div>
