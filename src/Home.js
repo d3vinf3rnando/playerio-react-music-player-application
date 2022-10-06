@@ -2,6 +2,7 @@ import React from 'react'
 
 
 
+
 export default function home() {
   return (
     <div>
@@ -25,6 +26,24 @@ export default function home() {
           <div className="bg-purple-200 w-64 h-64 rounded-full blur-3xl "></div>
         </div>
         {/* updated comments */}
+
+        <div>
+            <h3 className="font-bold text-lg">Top Mix</h3>
+            <button className="font-regular text-sm" type='submit'>See all</button>
+
+            <div>
+                <img src="" alt="" />
+            </div>
+        </div>
+
+        <div>
+            <h3 className="font-bold text-lg">Recently Played</h3>
+            <button type=' font-regular text-lg submit'>See all</button>
+        </div>
+
+        <div>
+
+        </div>
 
         
     </div>

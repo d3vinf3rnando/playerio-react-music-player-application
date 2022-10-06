@@ -13,9 +13,6 @@ import { BrowserRouter as Router, Switch,
 export default function Login() {
   return (
 
-   
-
-
 
     <div>
 
@@ -31,7 +28,7 @@ export default function Login() {
           <div className="bg-purple-200 w-64 h-64 rounded-full blur-3xl "></div>
         </div>
 
-        
+
 
           <div className='flex justify-center z-0'>
             <div className=" mr-14 bg-purple-200 w-64 h-64 rounded-full blur-3xl z-0 "></div>
