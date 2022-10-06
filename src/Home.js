@@ -14,13 +14,7 @@ export default function home() {
         <div className='flex justify-start'>
           <div className="bg-purple-200 w-64 h-64 rounded-full blur-3xl "></div>
         </div>
-        <div>
-          remove later
-        </div>
-        
-        <div>
-          remove later 
-        </div>
+       
 
         
 
