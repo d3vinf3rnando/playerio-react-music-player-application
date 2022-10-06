@@ -17,6 +17,10 @@ export default function home() {
         <div>
           remove later
         </div>
+        
+        <div>
+          remove later 
+        </div>
 
         
 
