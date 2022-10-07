@@ -5,11 +5,9 @@ import React from 'react'
 
 export default function home() {
   return (
-    <div>
+    <div >
         <div className="z-0 relative">
-        <div className='flex justify-end p-10'>
-          <button className='hover:text-purple-500 text-lg' type="button">Skip</button>
-        </div>
+        
 
         <div className='flex justify-start'>
           <div className="bg-purple-200 w-64 h-64 rounded-full blur-3xl "></div>
@@ -28,7 +26,7 @@ export default function home() {
         </div>
         {/* updated comments */}
 
-        <div>
+        <div className="z-10 absolute  top-1/3 right-16 left-20 bottom-0">
             <h3 className="font-bold text-lg">Top Mix</h3>
             <button className="font-regular text-sm" type='submit'>See all</button>
 
@@ -37,7 +35,7 @@ export default function home() {
             </div>
         </div>
 
-        <div>
+        <div className="z-20 absolute  top-48 right-1/4 left-64 bottom-0">
             <h3 className="font-bold text-lg">Recently Played</h3>
             <button type=' font-regular text-lg submit'>See all</button>
         </div>
