@@ -35,9 +35,9 @@ export default function home() {
             </div>
         </div>
 
-        <div className="z-20 absolute  top-48 right-1/4 left-64 bottom-0">
-            <h3 className="font-bold text-lg">Recently Played</h3>
-            <button type=' font-regular text-lg submit'>See all</button>
+        <div className="z-20 absolute  top-48 right-32  bottom-30 ">
+            <h3 className="font-bold text-lg inline-block">Recently Played</h3>
+            <button type=' font-regular text-lg submit text-purple-500'>See all</button>
         </div>
 
         <div>
