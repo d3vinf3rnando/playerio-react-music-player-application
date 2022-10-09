@@ -61,11 +61,7 @@ export default function home() {
             <img className=' absolute top-0 p-5' src={Menu} />
           </a>
         </div>
-        <div className='flex justify-start'>
-          <a href="https://google.com" target="" rel="">
-            <img className=' absolute top-0 p-5' src={Menu} />
-          </a>
-        </div>
+        
         
 
         <div>
