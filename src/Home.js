@@ -8,6 +8,7 @@ import Song4 from '../src/images/song4.png'
 import Song5 from '../src/images/song5.png'
 import Song6 from '../src/images/song6.png'
 import Song7 from '../src/images/song7.png'
+import Cover from '../src/images/cover1.png'
 
 
 
@@ -35,6 +36,11 @@ export default function home() {
         </div>
         {/* updated comments */}
         
+        <div className=" z-40 absolute top-20 right-1/3">
+          <img className='' src={Cover} />
+          <p>Luis Fonsi</p>
+          <p>1,322,799,000 Streams</p>
+        </div>
 
         <div className="z-10 absolute  top-1/3 right-16 left-20 bottom-0">
             <h3 className="font-bold text-lg">Top Mix</h3>
