@@ -9,6 +9,10 @@ import Song5 from '../src/images/song5.png'
 import Song6 from '../src/images/song6.png'
 import Song7 from '../src/images/song7.png'
 import Cover from '../src/images/cover1.png'
+import Song11 from '../src/images/song11.png'
+import Song22 from '../src/images/song22.png'
+import Song33 from '../src/images/song33.png'
+import Song44 from '../src/images/song44.png'
 
 
 
@@ -41,20 +45,13 @@ export default function home() {
           <p className="absolute top-56 left-8 text-white font-bold">Luis Fonsi</p>
           <br></br>
           <p className='absolute top-60 left-8 text-white'>1,322,799,000 Streams</p>
-          <button className='absolute top-60 right-24 text-white bg-regal-blue rounded-3xl w-20 text-lg' type='submit '>Follow+</button>
+          <button className='absolute top-60 right-24 text-white bg-regal-blue rounded-3xl w-24 backdrop-blur-sm text-lg' type='submit '>Follow+</button>
 
           
           
         </div>
 
-        <div className="z-20 absolute  top-2/4 bottom-2 right-16 left-20 bottom-0  ">
-            <h3 className="font-bold text-lg inline-block">Top Mix</h3>
-            <button className="font-regular text-sm" type='submit'>See all</button>
-
-            <div>
-                <img src="" alt="" />
-            </div>
-        </div>
+        
 
         <div className="z-20 absolute  top-32 right-10  bottom-30   flex space-x-32 ">
             <h3 className="font-bold text-lg inline-block">Recently Played</h3>
@@ -176,6 +173,38 @@ export default function home() {
         <div>
 
         </div>
+
+        <div className="z-40 absolute  top-2/4 bottom-2 right-16 left-20 bottom-0  ">
+            <h3 className="font-bold text-lg inline-block">Top Mix</h3>
+            <button className="font-regular text-sm" type='submit'>See all</button>
+
+            
+        </div>
+
+        <div>
+          <img className='absolute bottom-32 left-44' src={Song11} />
+
+        </div>
+
+        <div>
+          <img className='absolute bottom-32 left-1/4' src={Song22} />
+
+        </div>
+
+        <div>
+          <img className='absolute bottom-32 right-1/2' src={Song33} />
+
+        </div>
+
+        <div>
+          <img className='absolute bottom-32 right-1/3' src={Song44} />
+
+        </div>
+
+       
+
+
+
 
         
     </div>
