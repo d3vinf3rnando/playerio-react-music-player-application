@@ -36,14 +36,19 @@ export default function home() {
         </div>
         {/* updated comments */}
         
-        <div className=" z-40 absolute top-20 right-1/3">
+        <div className=" z-20 absolute top-20 right-1/3">
           <img className='' src={Cover} />
-          <p>Luis Fonsi</p>
-          <p>1,322,799,000 Streams</p>
+          <p className="absolute top-56 left-8 text-white font-bold">Luis Fonsi</p>
+          <br></br>
+          <p className='absolute top-60 left-8 text-white'>1,322,799,000 Streams</p>
+          <button className='absolute top-60 right-24 text-white bg-regal-blue rounded-3xl w-20 text-lg' type='submit '>Follow+</button>
+
+          
+          
         </div>
 
-        <div className="z-10 absolute  top-1/3 right-16 left-20 bottom-0">
-            <h3 className="font-bold text-lg">Top Mix</h3>
+        <div className="z-20 absolute  top-2/4 bottom-2 right-16 left-20 bottom-0  ">
+            <h3 className="font-bold text-lg inline-block">Top Mix</h3>
             <button className="font-regular text-sm" type='submit'>See all</button>
 
             <div>
