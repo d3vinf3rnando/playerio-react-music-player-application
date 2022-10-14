@@ -14,13 +14,43 @@ import Song22 from '../src/images/song22.png'
 import Song33 from '../src/images/song33.png'
 import Song44 from '../src/images/song44.png'
 
+import { AiFillPlayCircle } from "react-icons/ai";
+
 
 
 
 export default function home() {
+
+  const audio = new Audio(
+    "https://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Sevish_-__nbsp_.mp3"
+  );
+
+  const start = () => {
+    audio.play();
+  };
+
+  const audio1 = new Audio(
+    "https://codeskulptor-demos.commondatastorage.googleapis.com/descent/background%20music.mp3"
+  )
+
+  const startSongTwo =() =>{
+    audio1.play();
+    
+  }
+
+ 
+
   return (
     <div >
         <div className="z-0 relative">
+
+        <div className="z-10 absolute top-36 left-10">
+          <button  className="bg-purple-600 w-20 text-white rounded-lg h">Play song 1</button>
+        </div>
+        <br></br>
+        <div className="z-10 absolute top-56 left-10">
+          <button onClick={startSongTwo} className="bg-purple-600 w-20 text-white rounded-lg h">Play song 2</button>
+        </div>
         
 
         <div className='flex justify-start'>
@@ -175,32 +205,59 @@ export default function home() {
 
         </div>
 
-        <div className="z-40 absolute  top-2/4 bottom-2 right-16 left-20 bottom-0  ">
+        <div className="z-40 absolute  top-[410px] bottom-20 right-16  left-80  flex space-x-[520px] ">
             <h3 className="font-bold text-lg inline-block">Top Mix</h3>
-            <button className="font-regular text-sm" type='submit'>See all</button>
+            <a className="font-regular text-sm text-purple-500 hover:text-purple-800" type='submit' href='#'>See all</a>
 
             
         </div>
 
-        <div>
-          <img className='absolute bottom-32 left-44' src={Song11} />
+
+        <div className="  flex space-x-4  absolute bottom-32 left-64" >
+
+          <div className='z-50'>
+            <img className=' ' src={Song11}  />
+            <div className=' mt-[-50px] ml-[30px] flex justify-between w-28 h-10 text-white bg-regal-blue rounded-2xl  backdrop-blur-sm text-md'>
+              <button  onClick={start}>
+                 <span>The Wave</span>
+                 <AiFillPlayCircle  className=' inline-flex z-40 mt-1 w-7 h-7 flex items-center'/>
+              </button>
+  
+            </div>
+            
+            
+          </div>
+
+          <div className='z-50'>
+            <img className=' ' src={Song22} />
+            <button  class="bg-grey-light hover:bg-grey text-grey-darkest font-bold py-2 px-4 rounded inline-flex items-center">
+                <svg class="w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+                <span>Download</span>
+              </button>
+
+          </div>
+
+          <div>
+          <img className='' src={Song33} />
 
         </div>
 
         <div>
-          <img className='absolute bottom-32 left-1/4' src={Song22} />
+          <img className='' src={Song44} />
 
         </div>
 
-        <div>
-          <img className='absolute bottom-32 right-1/2' src={Song33} />
-
         </div>
 
-        <div>
-          <img className='absolute bottom-32 right-1/3' src={Song44} />
+        
 
-        </div>
+        
+
+        
+
+        
+
+     
 
        
 
