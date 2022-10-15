@@ -7,9 +7,9 @@ import { AiFillStepForward} from "react-icons/ai";
 function Control() {
   return (
     <div>
-        <button><AiFillStepBackward/></button>
-        <button><AiFillPauseCircle/></button>
-        <button><AiFillStepForward/></button>
+        <button className='text-purple-300 text-3xl'><AiFillStepBackward/></button>
+        <button className='text-purple-600 text-3xl'><AiFillPauseCircle/></button>
+        <button className='text-purple-300 text-3xl'><AiFillStepForward/></button>
         
     </div>
   )
