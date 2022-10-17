@@ -44,13 +44,6 @@ export default function home() {
     <div >
         <div className="z-0 relative">
 
-        <div className="z-10 absolute top-36 left-10">
-          <button  className="bg-purple-600 w-20 text-white rounded-lg h">Play song 1</button>
-        </div>
-        <br></br>
-        <div className="z-10 absolute top-56 left-10">
-          <button onClick={startSongTwo} className="bg-purple-600 w-20 text-white rounded-lg h">Play song 2</button>
-        </div>
         
 
         <div className='flex justify-start'>
