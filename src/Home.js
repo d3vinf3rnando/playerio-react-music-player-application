@@ -38,6 +38,11 @@ export default function home() {
     
   }
 
+  const startSongTwow =() =>{
+    audio1.play();
+    
+  }
+
  
 
   return (
