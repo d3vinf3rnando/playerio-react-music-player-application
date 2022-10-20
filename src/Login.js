@@ -16,8 +16,7 @@ export default function Login() {
 
     <div>
 
-    
-  
+
 
       <div className="z-0 relative">
         <div className='flex justify-end p-10'>
